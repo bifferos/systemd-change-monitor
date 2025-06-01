@@ -12,5 +12,11 @@ UI.
 
 See https://github.com/bifferos/esp-controller/tree/main/web-ui for the UI.
 
+1) Configure tplink_port.py program so it runs, or whatever other program you want run on changes.
+2) drop on_change.sh file somewhere it will be picked up.
+3) Copy lg-tv-ethernet-change.* to /etc/systemd/system/.
+4) sudo systemctl daemon-reload (to read the files)
+5) sudo systemctl enable --now lg-tv-ethernet-change.path
 
-
+I've created a venv and put bs4 and httpx in there because linux mint now complains more loudly
+about installing stuff into system python.
