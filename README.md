@@ -10,4 +10,7 @@ This is an example of a TV connection to a tp-link smart port being controlled b
 presence or absence of a file, which in turn can be managed via a simple Go web-based
 UI.
 
+See https://github.com/bifferos/esp-controller/tree/main/web-ui for the UI.
+
+
 
