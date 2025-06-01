@@ -1,0 +1,8 @@
+[Unit]
+Description=Run script when file changes
+
+[Service]
+User=user
+Group=user
+Type=oneshot
+ExecStart=/home/user/tplink_port/on_change.sh
