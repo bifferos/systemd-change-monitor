@@ -1,0 +1,8 @@
+[Unit]
+Description=Watch lg_tv_ethernet_connection for changes
+
+[Path]
+PathChanged=/var/lib/esp-controller/lg_tv_ethernet_connection
+
+[Install]
+WantedBy=multi-user.target
